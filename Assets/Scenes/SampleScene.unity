@@ -380,7 +380,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87916ecf7c792140bfe56f0425dbe39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWave: {fileID: 11400000, guid: dba103a479ae38440a8097f499b5b118, type: 2}
+  waveConfigs:
+  - {fileID: 11400000, guid: dba103a479ae38440a8097f499b5b118, type: 2}
+  - {fileID: 11400000, guid: ac3f46b2b695b224cbcdea0a06edb463, type: 2}
+  TimeBetweenWaves: 1
+  isLooping: 1
 --- !u!4 &1040465326
 Transform:
   m_ObjectHideFlags: 0
@@ -389,7 +393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040465324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4500201, y: 1.4341722, z: -0.09250148}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

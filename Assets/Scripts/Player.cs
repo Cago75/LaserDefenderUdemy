@@ -16,7 +16,13 @@ public class Player : MonoBehaviour
     //BoundingBox
     Vector2 minBounds;
     Vector2 maxBounds;
+    //Shooter
+    Shooter shooter;
 
+    void Awake()
+    {
+        shooter = GetComponent<Shooter>();
+    }
     void Start()
     {
         InitBounds();
@@ -48,5 +54,14 @@ public class Player : MonoBehaviour
     void OnMove(InputValue value) // we need continuous movement, this is dont by the move () function
     {
         rawInput = value.Get<Vector2>();
+    }
+
+    void OnFire(InputValue value)
+    {
+        
+        if(shooter != null)
+        {
+            shooter.isFiring = value.isPressed;
+        }
     }
 }

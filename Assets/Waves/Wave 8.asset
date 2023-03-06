@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8f86e3019896743bac1176e7c43f14, type: 3}
+  m_Name: Wave 8
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  - {fileID: 3732263672973338619, guid: 3cb01554fdc594a4d8b50787864aec55, type: 3}
+  pathPrefab: {fileID: 3484170741864374403, guid: 59ad8f97341317048bea6d3b779c74e3, type: 3}
+  movementSpeed: 5
+  timeBetweenEnemySpawns: 1
+  spawnTimeVariance: 0.2
+  minimumSpawnTime: 0.2
